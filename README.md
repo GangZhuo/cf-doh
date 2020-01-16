@@ -2,11 +2,11 @@
 
 Proxy [Google DoH](https://developers.google.com/speed/public-dns/docs/doh) by cloudflare workers.
 
-#### Step
+### Step
 
 1. Install Wrangler
 
-Fllow [Cloudflare Workers Quick Start](https://developers.cloudflare.com/workers/quickstart/) .
+Following [Cloudflare Workers Quick Start](https://developers.cloudflare.com/workers/quickstart/) .
 
 2. Deployment
 
@@ -28,8 +28,8 @@ wrangler publish
 
 After publshed, there are two APIs:
 
-* https://*.*.workers.dev/dns-query
-* https://*.*.workers.dev/resolve?
+* https://**.**.workers.dev/dns-query
+* https://**.**.workers.dev/resolve?
 
 See document at [Google DoH](https://developers.google.com/speed/public-dns/docs/doh) .
 
