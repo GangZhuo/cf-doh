@@ -1,0 +1,6 @@
+name = "$yourName"
+type = "webpack"
+account_id = "$yourAccountId"
+workers_dev = true
+route = ""
+zone_id = ""
