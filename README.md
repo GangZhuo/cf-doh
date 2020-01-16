@@ -8,23 +8,21 @@ Proxy [Google DoH](https://developers.google.com/speed/public-dns/docs/doh) by c
 
 Following [Cloudflare Workers Quick Start](https://developers.cloudflare.com/workers/quickstart/) .
 
-2. Deployment
-
-Generating a project by running the following command:
+2. Generate project by below command:
 
 ```
 wrangler generate cf-doh https://github.com/GangZhuo/cf-doh
 ```
 
-Change wrangler.toml file with your "name" and "account_id":
+3. Change wrangler.toml file with your "name" and "account_id".
 
-Publish your project by running following command:
+4. Publish project by below command:
 
 ```
 wrangler publish
 ```
 
-3. Usaging
+### Usaging
 
 After publshed, there are two APIs:
 
