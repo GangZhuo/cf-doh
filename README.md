@@ -16,6 +16,11 @@ wrangler generate cf-doh https://github.com/GangZhuo/cf-doh
 
 3. Change wrangler.toml file with your "name" and "account_id".
 
+The name field in this config file, which will map to your script’s deploy name 
+(e.g. cf-doh.mysubdomain.workers.dev).
+
+The account_id field can be find in your dashboard page.
+
 4. Publish project by below command:
 
 ```
@@ -26,8 +31,8 @@ wrangler publish
 
 After publshed, there are two APIs:
 
-* https://**.**.workers.dev/dns-query
-* https://**.**.workers.dev/resolve?
+* https://$yourName.$yourSubDommain.workers.dev/dns-query
+* https://$yourName.$yourSubDommain.workers.dev/resolve?
 
 See document at [Google DoH](https://developers.google.com/speed/public-dns/docs/doh) .
 
