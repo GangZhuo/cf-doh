@@ -22,6 +22,7 @@ function resolve(request) {
     return fetch(new Request(url, {
 		method: 'GET',
 		redirect: 'manual',
+		headers: request.headers
 	}));
 }
 
@@ -37,6 +38,7 @@ function dns_query_get(request) {
     return fetch(new Request(url, {
 		method: 'GET',
 		redirect: 'manual',
+		headers: request.headers
 	}));
 }
 
