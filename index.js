@@ -46,6 +46,8 @@ function dns_query_post(request) {
     return fetch(new Request(url, {
 		method: 'POST',
 		redirect: 'manual',
+		headers: request.headers,
+		body: request.body
 	}));
 }
 
