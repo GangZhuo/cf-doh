@@ -2,6 +2,8 @@
 
 Proxy [Google DoH](https://developers.google.com/speed/public-dns/docs/doh) by cloudflare workers.
 
+可结合 https://github.com/GangZhuo/dohclient 使用。 
+
 ### Step
 
 1. Install Wrangler
