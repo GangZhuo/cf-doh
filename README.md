@@ -9,7 +9,7 @@ Proxy [Google DoH](https://developers.google.com/speed/public-dns/docs/doh) by c
 1. 注册 cloudflare 账号
 2. 打开 https://workers.cloudflare.com/ ，并登录
 3. 点击 Create a Worker 按钮
-4. 把 https://github.com/GangZhuo/cf-doh/blob/master/dist/cf-doh-min.js 中的内容复制到左侧脚本编辑框中
+4. 把 https://github.com/GangZhuo/cf-doh/blob/master/dist/cf-doh-min.js 中的内容复制替换到左侧脚本编辑框中
 5. 点击 Save and Deploy 按钮
 6. 使用浏览器浏览新部署的站点，应能显示 Hello worker! 字符
 
